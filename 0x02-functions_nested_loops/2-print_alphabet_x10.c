@@ -2,13 +2,15 @@
 
 /**
  * print_alphabet_x10 - prints alphabets ten times
- * Return: 0(success)
+ * Return: nothing
  */
 
 void print_alphabet_x10(void)
 {
 	int counter;
 	char ch;
+
+	counter = 0;
 
 	while (counter < 10)
 	{
