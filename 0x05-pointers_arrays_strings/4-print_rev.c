@@ -6,21 +6,20 @@
  * print_rev - print the string in reverse order
  * @s: the string
  * Return: nothing
- * HERE i WILL USE THE SWAPPING IDEA
  */
 
 void print_rev(char *s)
 {
-	char temp;
-	char *endofS = s;
+	int len = 0;
 
-	while (*endofS) endofS++;
-	endofS--;
-
-	while (s < endofS)
+	while (*(s + len) != '\0')
 	{
-		temp = *s;
-		*s++ = *endofS;
-		*endofS-- = temp;
+		len++;
 	}
+	while (len > 0)
+	{
+		_putchar(*(s + len - 1));
+		len--;
+	}
+	_putchar('\n');
 }
