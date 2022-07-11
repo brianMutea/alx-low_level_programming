@@ -3,7 +3,7 @@
 
 /**
  * print_array - prints n elems of array
- * @a: pointer 
+ * @a: pointer
  * @n: pointer to rest
  * Return: nothing
  */
