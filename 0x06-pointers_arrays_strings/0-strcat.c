@@ -30,6 +30,7 @@ char *_strcat(char *dest, char *src)
 
 		dest[destCount] = src[srcCount];
 		srcCount++;
+		destCount++;
 	}
 
 	dest[destCount] = '\0';
