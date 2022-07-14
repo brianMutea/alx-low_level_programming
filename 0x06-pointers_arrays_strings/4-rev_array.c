@@ -25,6 +25,6 @@ void reverse_array(int *a, int n)
 		a[arrItempos] = temp;
 
 		arrItemat++;
-		arrItempos++;
+		arrItempos--;
 	}
 }
